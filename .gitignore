@@ -1,0 +1,41 @@
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+
+# 系统垃圾
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 防御性: 大固件 / 官方包 / 第三方工具二进制不进仓库
+# (本仓库目录本就只含脚本+文档+小校验+fix_vrl, 以下防止误拷入)
+*.zip
+*.rar
+*.tar.gz
+*.apk
+*.7z
+/dd_set/
+/emui8_b379/
+/emui8_stage/
+/fw_b379/
+/fw_b186/
+/rollback_b186/
+/rb186/
+/rb379/
+/stock_b186/
+/stock_b186_cmp/
+/sdzips/
+/Software/
+/rescue/
+/platform-tools/
+/gusb/
+/heads_live/
+/pkg_inspect/
+/out_check/
+/backups/
+/logs/
+/verchk/
+/IMAGE Download Software*/
+
+# 注意: fix_vrl/*.img (vrl 修复镜像, 1MB) 是需要保留的小二进制, 不被忽略

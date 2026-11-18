@@ -1,0 +1,281 @@
+[
+ {
+  "name": "fw_lpm3",
+  "phase": 1,
+  "first": 2048,
+  "sectors": 321,
+  "size": 164352,
+  "sha256": "1bf795d9426c5386f0578e348ba67500b504a726ab74ab6b1030e7bec56d8307",
+  "file": "imgs/fw_lpm3.img"
+ },
+ {
+  "name": "teeos",
+  "phase": 1,
+  "first": 684032,
+  "sectors": 5145,
+  "size": 2634240,
+  "sha256": "3741ff8de294614c620e1b7c00987b9fd251808ce1d22b3735e9b37765785ce6",
+  "file": "imgs/teeos.img"
+ },
+ {
+  "name": "trustfirmware",
+  "phase": 1,
+  "first": 692224,
+  "sectors": 214,
+  "size": 109568,
+  "sha256": "aded59bd066fb31d1491c0a28d167164f7d9fc9dfda08150bea2f8ae08e51ace",
+  "file": "imgs/trustfirmware.img"
+ },
+ {
+  "name": "sensorhub",
+  "phase": 1,
+  "first": 696320,
+  "sectors": 1981,
+  "size": 1014272,
+  "sha256": "f5ac455a46a09ba1dc3ac2e3d141dbb8b5b73ecec68f9c9e6faf2115ca63c560",
+  "file": "imgs/sensorhub.img"
+ },
+ {
+  "name": "fw_hifi",
+  "phase": 1,
+  "first": 729088,
+  "sectors": 11067,
+  "size": 5666304,
+  "sha256": "9aa05d96d71744d3b412d590021e5c8608006b21b9f03c318a3015ff861a2f7a",
+  "file": "imgs/fw_hifi.img"
+ },
+ {
+  "name": "modemnvm_update",
+  "phase": 1,
+  "first": 512000,
+  "sectors": 20935,
+  "size": 10718720,
+  "sha256": "7236f8b826816e4a9d1bc24506453c0e7eebe2fe19ed2b023327c71f86207e11",
+  "file": "imgs/modemnvm_update.img"
+ },
+ {
+  "name": "modem_fw",
+  "phase": 1,
+  "first": 1146880,
+  "sectors": 196600,
+  "size": 100659200,
+  "sha256": "47fb96c69e54d336634d3219f64a7c18c7389afe6b00bfc8a5856a849f7cae4c",
+  "file": "imgs/modem_fw.img"
+ },
+ {
+  "name": "dts",
+  "phase": 1,
+  "first": 1081344,
+  "sectors": 53724,
+  "size": 27506688,
+  "sha256": "5e4b879c8bf64f6f8b5260ae5b1458101f9ce9ee10d850676a27e3523c1bfd24",
+  "file": "imgs/dts.img"
+ },
+ {
+  "name": "vbmeta",
+  "phase": 1,
+  "first": 1384448,
+  "sectors": 15,
+  "size": 7680,
+  "sha256": "f88cb00b59a0f52cf33e9993260e8a9c79061e42075da83551eaeb1672ae975a",
+  "file": "imgs/vbmeta.img"
+ },
+ {
+  "name": "recovery_vbmeta",
+  "phase": 1,
+  "first": 1343488,
+  "sectors": 6,
+  "size": 3072,
+  "sha256": "3e0ae77b403615f9e5b35af8bc835c2dc1a9473c67eed66c81ff127d7ef1a760",
+  "file": "imgs/recovery_vbmeta.img"
+ },
+ {
+  "name": "erecovery_vbmeta",
+  "phase": 1,
+  "first": 1345536,
+  "sectors": 6,
+  "size": 3072,
+  "sha256": "0a66791672a051dba3e49c5d04ca4edf7ff5a0415ac8fea0645f843c4f0bca54",
+  "file": "imgs/erecovery_vbmeta.img"
+ },
+ {
+  "name": "system",
+  "phase": 1,
+  "first": 2539520,
+  "sectors": 6832128,
+  "size": 3498049536,
+  "sha256": "cb3e583249307ab6dfef58200dd334e15812b8819b19186a86846d504b12e245",
+  "file": "imgs/system.img"
+ },
+ {
+  "name": "vendor",
+  "phase": 1,
+  "first": 9830400,
+  "sectors": 1605632,
+  "size": 822083584,
+  "sha256": "00c5db88376aa6f833b853eeb3780cbc64a2d8966612cde4aa8a93eee383982a",
+  "file": "imgs/vendor.img"
+ },
+ {
+  "name": "product",
+  "phase": 1,
+  "first": 11436032,
+  "sectors": 393216,
+  "size": 201326592,
+  "sha256": "cfad9ca6fd537814564805d41bfd4b5e4fe6c35b29852784b69e0bdf9478477c",
+  "file": "imgs/product.img"
+ },
+ {
+  "name": "odm",
+  "phase": 1,
+  "first": 1654784,
+  "sectors": 262144,
+  "size": 134217728,
+  "sha256": "425da4a607dcca10b3e2daf068ae547326bfc8aa41669e98dc2d47289db18944",
+  "file": "imgs/odm.img"
+ },
+ {
+  "name": "version",
+  "phase": 1,
+  "first": 9764864,
+  "sectors": 16384,
+  "size": 8388608,
+  "sha256": "a14ff4f1f1e5cf3eca88f471aa22f18f6ee0353d16b7f6dd61630c7c61d42148",
+  "file": "imgs/version.img"
+ },
+ {
+  "name": "cust",
+  "phase": 1,
+  "first": 9371648,
+  "sectors": 393216,
+  "size": 201326592,
+  "sha256": "5a4dd2bdab9f69048934763d0b21dacf2f0a955a5d18b0b37242712b03c9a883",
+  "file": "imgs/cust.img"
+ },
+ {
+  "name": "preas",
+  "phase": 1,
+  "first": 2097152,
+  "sectors": 409600,
+  "size": 209715200,
+  "sha256": "06313dfdd023d2e59890611fb90598f9baf36abd9109a2323fbf5fdbcff58b05",
+  "file": "imgs/preas.img"
+ },
+ {
+  "name": "preavs",
+  "phase": 1,
+  "first": 2506752,
+  "sectors": 32768,
+  "size": 16777216,
+  "sha256": "83277ff623b4738aeea0ab28090fb50a30f88f521e863d628f4d6b56d41c75bd",
+  "file": "imgs/preavs.img"
+ },
+ {
+  "name": "cache",
+  "phase": 1,
+  "first": 1392640,
+  "sectors": 262144,
+  "size": 134217728,
+  "sha256": "7cea728cb51888932f21a395f28bdd1e368e65aa94e7f7641cf5e6df0809e250",
+  "file": "imgs/cache.img"
+ },
+ {
+  "name": "kernel",
+  "phase": 1,
+  "first": 901120,
+  "sectors": 49144,
+  "size": 25161728,
+  "sha256": "ba34e86781de6bb930e2c0d90889a83e7e23b1a53a3aba08a770a9d0a59f47e5",
+  "file": "imgs/kernel.img"
+ },
+ {
+  "name": "ramdisk",
+  "phase": 1,
+  "first": 950272,
+  "sectors": 32768,
+  "size": 16777216,
+  "sha256": "6a4f2735f4672c78d4a662bcecf38229ebe5a92ffcadf6558ade391896a0dc20",
+  "file": "imgs/ramdisk.img"
+ },
+ {
+  "name": "recovery_ramdisk",
+  "phase": 1,
+  "first": 983040,
+  "sectors": 65536,
+  "size": 33554432,
+  "sha256": "6255102edba594abd49c9dd43544d4544ce832da4e4d123d5cf4e11458055dbb",
+  "file": "imgs/recovery_ramdisk.img"
+ },
+ {
+  "name": "recovery_vendor",
+  "phase": 1,
+  "first": 1048576,
+  "sectors": 32768,
+  "size": 16777216,
+  "sha256": "f491f2f36ac3b525d8a50aa4250c48a98ec8d1e1bbbb28c1adef1da82a1b7d18",
+  "file": "imgs/recovery_vendor.img"
+ },
+ {
+  "name": "erecovery_kernel",
+  "phase": 1,
+  "first": 753664,
+  "sectors": 49144,
+  "size": 25161728,
+  "sha256": "ba34e86781de6bb930e2c0d90889a83e7e23b1a53a3aba08a770a9d0a59f47e5",
+  "file": "imgs/erecovery_kernel.img"
+ },
+ {
+  "name": "erecovery_ramdisk",
+  "phase": 1,
+  "first": 802816,
+  "sectors": 65536,
+  "size": 33554432,
+  "sha256": "6255102edba594abd49c9dd43544d4544ce832da4e4d123d5cf4e11458055dbb",
+  "file": "imgs/erecovery_ramdisk.img"
+ },
+ {
+  "name": "erecovery_vendor",
+  "phase": 1,
+  "first": 868352,
+  "sectors": 32768,
+  "size": 16777216,
+  "sha256": "f491f2f36ac3b525d8a50aa4250c48a98ec8d1e1bbbb28c1adef1da82a1b7d18",
+  "file": "imgs/erecovery_vendor.img"
+ },
+ {
+  "name": "fastboot",
+  "phase": 2,
+  "first": 4096,
+  "sectors": 5595,
+  "size": 2864640,
+  "sha256": "d0dce6e2178c861ddeab9f7e527c6d543e5ca7d30578d63b85aae8f90eed00b0",
+  "file": "imgs/fastboot.img"
+ },
+ {
+  "name": "misc_zero",
+  "phase": 3,
+  "first": 507904,
+  "sectors": 4096,
+  "size": 2097152,
+  "zero": true,
+  "file": ""
+ },
+ {
+  "name": "userdata_zero",
+  "phase": 3,
+  "first": 11829248,
+  "sectors": 16384,
+  "size": 8388608,
+  "zero": true,
+  "file": ""
+ },
+ {
+  "name": "efi",
+  "phase": 4,
+  "first": 0,
+  "sectors": 34,
+  "size": 17408,
+  "sha256": "9cbb0b5936d1e8702d8ed67b2e101306728c1d3d892e003ef34b915e4ee7f728",
+  "file": "imgs/efi.img"
+ }
+]
